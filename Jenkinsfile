@@ -19,11 +19,7 @@ pipeline {
                         build job: 'Deploy-to-staging'
                     }
                 }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
+
 
     }
 }
